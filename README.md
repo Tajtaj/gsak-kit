@@ -35,7 +35,7 @@ This project provides a plugin for graph analysis and visualization through whic
 #### Basic Graph
   * *__Route__*: <code>/gephi</code> <br>
   * *__Parameter(optional and Data Source Specific):__*
-  * *__Elasticsearch Params Options:__* <code>basicSettings={"selectedDataSource":"elasticsearch","searchValue":"KEYWORDS'","host":"localhost","port":"9300","clusterName":"elasticsearch","index":"indexName","type":"indexTypeName","documentsLimit":"1000"}</code> <br>
+  * *__Elasticsearch Params Options:__* <code>basicSettings={"selectedDataSource":"elasticsearch","searchValue":"KEYWORDS","host":"localhost","port":"9300","clusterName":"elasticsearch","index":"indexName","type":"indexTypeName","documentsLimit":"1000"}</code> <br>
 
 * *__Text File Params Options:__* <code>basicSettings={"selectedDataSource":"file","filePath":"path_to_the_tweets_file"}</code> <br>
   * *__e.g. File as Data source:__*: <code>localhost:8282/gephi?basicSettings={"selectedDataSource":"file", "filePath":"/etc/tweets.txt"} </code> <br>
